@@ -5,8 +5,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 import os
-import tensorflow as tf
 import time
+import joblib
+
 
 # ==========================================
 # 1. Page Configuration
@@ -109,7 +110,7 @@ df = load_clean_data()
 @st.cache_resource
 def load_ai_assets():
     try:
-        model = tf.keras.models.load_model("ann2_model.h5")
+        model = joblib.load("ann_model.pkl")
         with open("scaler2.pkl", "rb") as f:
             scaler = pickle.load(f)
         
