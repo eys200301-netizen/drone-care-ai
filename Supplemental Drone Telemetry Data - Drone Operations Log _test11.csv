@@ -1,0 +1,557 @@
+Drone ID,Application,Drone Size,Drone Model,Manufacturer,Propeller Count,Max Carry Weight (kg),Actual Carry Weight (kg),Payload Type,Payload Description,Altitude (meters),Flight Duration (minutes),Dstance Flown (km),Operator ID,Flight Date,Battery Remaining (%),GPS Accuracy (meters),Wind Speed (m/s),Obstacles Encountered,Flight Status
+D001,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,4.7,Package,Small consumer goods,90,35,12,OP001,3/20/2025,22,4.8,8.1,Yes,Landed Unexpectedly
+D002,Infrastructure Inspection,Large,Inspecta X,SkyView Inc.,6,15,14.2,"Camera, Sensor","High-resolution camera, thermal sensor",150,55,18,OP002,3/21/2025,21,5.6,9,Yes,Landed Unexpectedly
+D003,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,21.2,Liquid Tank,Pesticide solution,45,44,14,OP003,3/22/2025,19,6.1,8.7,Yes,Landed Unexpectedly
+D004,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.9,Camera,Lightweight action camera,100,28,7,OP004,3/23/2025,18,5.9,7.4,Yes,Landed Unexpectedly
+D005,Surveillance,Medium,Watcher Pro,SecureTech,4,7,3,"Camera, Sensor","Infrared camera, motion detection sensor",100,72,12,OP005,3/24/2025,28,3.9,6.1,Yes,Landed Unexpectedly
+D006,Surveying,Medium,MapMaker Z,GeoSurv,6,10,6,LiDAR System,Light Detection and Ranging system,70,35,9,OP006,3/25/2025,78,1.5,3.1,No,Completed
+D007,Search and Rescue,Large,Guardian SR,RescueFly,8,12,5,"Camera, Beacon","Thermal camera, emergency locator beacon",150,50,21,OP007,3/26/2025,34,4.4,7.2,Yes,Landed Unexpectedly
+D008,Film Production,Large,CineDrone X,FilmCraft,8,18,10,Camera,Professional cinema camera with gimbal,60,40,7,OP008,3/27/2025,70,2,4.2,No,Completed
+D009,Environmental Monitoring,Small,AirProbe 1,EnviroTech,4,2,1.2,Sensor,Air quality sampling device,40,28,6,OP009,3/28/2025,88,1.1,2.7,No,Completed
+D010,Warehouse Inventory,Small,StockChecker,InventoryAI,4,3,1.5,Scanner,Barcode and RFID scanner,15,30,4,OP010,3/29/2025,75,0.9,1.5,No,Completed
+D011,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1,Package,Small documents,60,18,5,OP011,3/19/2025,95,1.3,2.9,No,Completed
+D012,Bridge Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.5,Camera,High-definition camera,90,38,12,OP002,3/18/2025,60,2.2,5.8,No,Completed
+D013,Crop Monitoring,Small,Agri Scout,AgriDrones,4,1.5,0.8,Camera,Multispectral camera for plant health analysis,45,22,7,OP003,3/17/2025,80,1,3.3,No,Completed
+D014,Real Estate Photography,Small,SkyLens,PhotoFly,4,1.2,0.6,Camera,Wide-angle camera for property showcasing,75,25,4,OP004,3/16/2025,88,1.6,2.5,No,Completed
+D015,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,5,"Camera, Sensor","Corona discharge camera, infrared thermometer",110,62,16,OP002,3/15/2025,22,4.7,8.3,Yes,Landed Unexpectedly
+D016,Traffic Monitoring,Medium,TrafficEye,SecureTech,4,6,2.8,Camera,Real-time video camera for traffic analysis,85,40,10,OP005,3/14/2025,72,1.9,4.5,No,Completed
+D017,Wind Turbine Inspection,Large,BladeChecker,AeroCorp,6,16,9,Camera,High-resolution camera for blade damage assessment,160,65,20,OP002,3/13/2025,21,5.2,9.4,Yes,Landed Unexpectedly
+D018,Construction Site Survey,Medium,SiteScan,GeoSurv,6,11,7.5,"Camera, GPS","High-resolution camera, GPS for site mapping",55,30,8,OP006,3/12/2025,81,1.4,2.8,No,Completed
+D019,Event Coverage,Small,EventFlyer,PhotoFly,4,1.8,1,Camera,Compact camera for capturing event footage,95,32,6,OP004,3/11/2025,90,1.7,3.9,No,Completed
+D020,Delivery to Remote Area,Medium,LongHaul 400,DeliveryNow,6,10,4,Package,Medical supplies,70,50,32,OP011,3/10/2025,29,5.1,6.8,No,Landed Unexpectedly
+D021,Pipeline Inspection,Large,PipePatrol,SkyView Inc.,6,14,7,"Camera, Sensor","Infrared camera, gas leak detector",40,58,18,OP002,3/9/2025,73,2.3,6.8,No,Completed
+D022,Precision Agriculture,Small,FarmPilot,AgriDrones,4,2.5,1.3,Sensor,Soil moisture and nutrient sensors,35,26,9,OP003,3/8/2025,82,1.2,3.7,No,Completed
+D023,Wildlife Monitoring,Small,NatureWatch,EnviroTech,4,1.5,0.7,Camera,Low-light camera for observing wildlife,100,45,15,OP009,3/7/2025,65,1.9,4.1,No,Completed
+D024,Emergency Response,Large,FirstResponder,RescueFly,8,13,6,"Camera, Speaker","Thermal camera, loudspeaker for communication",130,48,11,OP007,3/6/2025,26,4.8,7.6,Yes,Landed Unexpectedly
+D025,Product Photography,Small,StudioShot,PhotoFly,4,1,0.4,Camera,High-resolution camera for product showcasing,50,15,3,OP004,3/5/2025,98,0.8,1.9,No,Completed
+D026,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,6,Package,Fragile electronics,45,22,7,OP001,3/4/2025,70,2.3,4,Yes,Landed Unexpectedly
+D026,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,6,Package,Fragile electronics,45,22,7,OP0001,3/4/2025,70,2.3,8,Yes,Landed Unexpectedly
+D028,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,25,Liquid Tank,Fertilizer solution,25,35,12,OP003,3/2/2025,35,4,8.1,Yes,Landed Unexpectedly
+D029,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,-0.2,Camera,Underwater camera,10,10,2,OP004,3/1/2025,100,0.5,1,No,Completed
+D030,Surveillance,Medium,Watcher Pro,SecureTech,4,7,3.5,"Camera, Sensor","Night vision camera, audio recorder",90,,11,OP005,2/28/2025,60,2.7,4.7,No,Completed
+D031,Surveying,Medium,MapMaker Z,GeoSurv,6,10,6.8,LiDAR System,Advanced LiDAR system,65,40,10,OP006,2/27/2025,88,1.3,3,No,Completed
+D032,Search and Rescue,Large,Guardian SR,RescueFly,8,12,5.5,"Camera, Beacon","Enhanced thermal camera, strobe light",140,55,20,OP007,2/26/2025,70,3,5.8,Yes,Completed
+D033,Film Production,Large,CineDrone X,FilmCraft,8,18,19,Camera,High-end cinema camera with multiple lenses,50,38,6,OP008,2/25/2025,65,2.1,4.5,No,Landed Unexpectedly
+D034,Environmental Monitoring,Small,AirProbe 1,EnviroTech,4,2,1,Sensor,Particulate matter sensor,30,30,7,OP009,2/24/2025,95,1,2.5,No,Completed
+D035,Warehouse Inventory,Small,StockChecker,InventoryAI,4,3,2,Scanner,3D barcode scanner,20,25,3,OP010,2/23/2025,80,0.7,1.2,No,Completed
+D036,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Perishable goods,70,20,6,OP011,2/22/2025,98,1.5,3.1,No,Completed
+D037,Bridge Inspection,Medium,ViewMax 500,Inspecta X,4,8,4,Camera,High-zoom camera,85,48,14,OP002,2/21/2025,32,4.2,6.8,Yes,Landed Unexpectedly
+D038,Crop Monitoring,Small,Agri Scout,AgriDrones,4,1.5,0.9,Camera,Thermal imaging camera for irrigation assessment,40,24,8,OP003,2/20/2025,85,1.1,3.5,No,Completed
+D039,Real Estate Photography,Small,SkyLens,PhotoFly,4,1.2,0.7,Camera,360-degree camera,80,30,5,OP004,2/19/2025,91,1.8,2.3,No,Completed
+D040,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,5.2,"Camera, Sensor","UV camera, acoustic sensor",105,60,17,OP002,2/18/2025,48,3,7.5,Yes,Landed Unexpectedly
+D041,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,0.9,Package,Books,75,15,4,OP012,4/1/2025,91,1.6,2.8,No,Completed
+D042,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.2,Camera,Zoom lens camera,105,40,13,OP002,4/2/2025,63,2,5.1,Yes,Landed Unexpectedly
+D043,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Organic fertilizer,35,32,11,OP003,4/3/2025,29,4.5,8.2,No,Landed Unexpectedly
+D044,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Infrared camera,95,18,6,OP004,4/4/2025,34,4.2,7.6,Yes,Landed Unexpectedly
+D045,Surveillance,Medium,Watcher Pro,SecureTech,4,7,4.1,Sensor,Noise detection sensor,110,55,10,OP005,4/5/2025,58,2.3,4.5,No,Completed
+D046,Surveying,Medium,MapMaker Z,GeoSurv,6,10,7.3,GPS,High-precision GPS module,60,38,8,OP006,4/6/2025,79,1.4,3.2,No,Completed
+D047,Search and Rescue,Large,Guardian SR,RescueFly,8,12,4.8,Speaker,Megaphone,145,48,17,OP007,4/7/2025,65,2.6,5.3,No,Completed
+D048,Film Production,Large,CineDrone X,FilmCraft,8,18,11.5,Camera,Stabilized camera rig,55,42,9,OP008,4/8/2025,72,1.9,4,No,Completed
+D049,Environmental Monitoring,Small,AirProbe 1,EnviroTech,4,2,0.9,Sensor,Temperature and humidity sensor,38,25,5,OP009,4/9/2025,89,1.2,2.5,Yes,Landed Unexpectedly
+D050,Warehouse Inventory,Small,StockChecker,InventoryAI,4,3,1.8,RFID Reader,Long-range RFID reader,18,28,3,OP010,4/10/2025,77,0.8,1.3,No,Completed
+D051,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Birthday gift,62,17,4.5,OP012,4/11/2025,93,1.5,2.7,No,Completed
+D052,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Neutral density filters,84,20,5.5,OP004,4/12/2025,90,1.1,2.1,No,Completed
+D053,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.6,Liquid Tank,Water for testing,33,30,9.5,OP003,4/13/2025,32,4.1,8.5,Yes,Landed Unexpectedly
+D054,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.8,Package,Office supplies,70,23,7.5,OP013,4/14/2025,86,1.9,3.4,No,Completed
+D055,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Polarizing filter,89,22,6.2,OP004,4/15/2025,97,1.4,2.4,No,Completed
+D056,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.6,Camera,Infrared camera for heat detection,102,46,12.5,OP002,4/16/2025,31,3.9,6.9,Yes,Landed Unexpectedly
+D057,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.5,Liquid Tank,Plant growth hormone,29,34,10.5,OP003,4/17/2025,28,3.4,8,Yes,Landed Unexpectedly
+D058,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Small appliances,65,21,6.8,OP013,4/18/2025,89,1.7,3.1,No,Completed
+D059,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Wide-angle lens,81,18,5.8,OP004,4/19/2025,94,1.2,2.2,No,Completed
+D060,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.1,Sensor,Acoustic emission sensor,107,42,13.2,OP002,4/20/2025,67,2.2,5.2,No,Completed
+D061,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Medicine,72,19,5.2,OP011,4/21/2025,96,1.4,2.8,No,Completed
+D062,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Time-lapse camera,86,23,6.5,OP004,4/22/2025,91,1.3,2.5,No,Completed
+D063,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.8,Liquid Tank,Nutrient solution,31,33,10.2,OP003,4/23/2025,26,4.3,7.9,Yes,Landed Unexpectedly
+D064,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Consumer electronics,69,24,7.1,OP013,4/24/2025,87,1.8,3.3,No,Completed
+D065,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Action camera,83,17,5.9,OP004,4/25/2025,99,1,2,No,Completed
+D066,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.7,Camera,High-resolution still camera,120,48,12.8,OP002,4/26/2025,35,4,6.8,Yes,Landed Unexpectedly
+D067,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.7,Liquid Tank,Defoliant,27,36,11.5,OP003,4/27/2025,24,3.6,8.6,Yes,Landed Unexpectedly
+D068,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.9,Package,Documents,71,26,8.2,OP013,4/28/2025,84,2,3.6,No,Completed
+D069,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Zoom lens,87,21,6.8,OP004,4/29/2025,92,1.5,2.6,No,Completed
+D070,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.3,Sensor,Magnetic particle inspection sensor,130,50,13.5,OP002,4/30/2025,33,4.5,6.9,Yes,Landed Unexpectedly
+D071,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,5,Camera,UV inspection camera,100,58,15,OP002,4/20/2025,29,5.2,8.1,Yes,Landed Unexpectedly
+D072,Traffic Monitoring,Medium,TrafficEye,SecureTech,4,6,3.1,Camera,License plate recognition camera,80,35,9,OP005,4/21/2025,75,1.7,4.2,No,Completed
+D073,Wind Turbine Inspection,Large,BladeChecker,AeroCorp,6,16,8.5,Camera,High-resolution video camera,170,70,22,OP002,4/22/2025,30,4.8,9.2,Yes,Landed Unexpectedly
+D073,Wind Turbine Inspection,Large,BladeChecker,AeroCorp,6,16,8.5,Camera,High-resolution video camera,170,70,22,OP0012,8/22/2025,60,4.8,9.2,Yes,Landed Unexpectedly
+D075,Event Coverage,Small,EventFlyer,PhotoFly,4,1.8,0.8,Camera,360-degree video camera,90,28,5,OP004,4/24/2025,92,1.9,3.7,No,Completed
+D076,Delivery to Remote Area,Medium,LongHaul 400,DeliveryNow,6,10,3.5,Package,Emergency rations,65,68,32,OP011,4/25/2025,27,4,4.8,No,Landed Unexpectedly
+D077,Pipeline Inspection,Large,PipePatrol,SkyView Inc.,6,14,6.5,Sensor,Ultrasonic leak detector,35,60,20,OP002,4/26/2025,78,2.2,6.5,No,Completed
+D078,Precision Agriculture,Small,FarmPilot,AgriDrones,4,2.5,1.1,Sensor,Leaf area index sensor,42,24,8,OP003,4/27/2025,87,1.3,3.9,No,Completed
+D079,Wildlife Monitoring,Small,NatureWatch,EnviroTech,4,1.5,0.6,Camera,Trail camera,120,50,16,OP009,4/28/2025,34,3.9,5.8,Yes,Landed Unexpectedly
+D080,Emergency Response,Large,FirstResponder,RescueFly,8,13,5.9,First Aid Kit,Basic medical supplies,135,45,10,OP007,4/29/2025,55,2.9,5.7,No,Completed
+D081,Product Photography,Small,StudioShot,PhotoFly,4,1,0.5,Camera,Macro lens camera,48,16,4,OP004,4/30/2025,96,0.9,2.1,No,Completed
+D082,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,,Package,Documents,65,20,6,OP012,5/1/2025,80,2,3.8,No,Completed
+D083,Infrastructure Inspection,Large,Inspecta X,SkyView Inc.,6,15,9.1,"Camera, Sensor",Thermal and visual camera,118,48,14,OP002,5/2/2025,71,1.6,3.1,No,Completed
+D084,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,22,Liquid Tank,Water for irrigation testing,30,28,9,OP003,5/3/2025,38,3.3,7.5,Yes,Landed Unexpectedly
+D085,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,-0.1,Camera,Fisheye lens camera,85,15,3,OP004,5/4/2025,99,1.1,2,No,Completed
+D086,Surveillance,Medium,Watcher Pro,SecureTech,4,7,3,Camera,Low-light video camera,105,,11,OP005,5/5/2025,62,2.6,4.9,No,Completed
+D087,Surveying,Medium,MapMaker Z,GeoSurv,6,10,6.5,LiDAR System,Compact LiDAR unit,75,33,7,OP006,5/6/2025,81,1.2,3.5,No,Completed
+D088,Search and Rescue,Large,Guardian SR,RescueFly,8,12,5.1,Communication Device,Two-way radio repeater,140,52,19,OP007,5/7/2025,67,2.7,5.6,No,Completed
+D089,Film Production,Large,CineDrone X,FilmCraft,8,18,20,Camera,VR camera rig,58,35,5,OP008,5/8/2025,78,2,4.3,Yes,Landed Unexpectedly
+D090,Environmental Monitoring,Small,AirProbe 1,EnviroTech,4,2,1.1,Sensor,Ozone sensor,32,27,6,OP009,5/9/2025,90,1.4,2.6,No,Completed
+A003,Film Production,Large,CineDrone X,FilmCraft,8,18,20,Camera,VR camera rig,58,35,5,OP008,5/8/2025,78,2,4.3,Yes,Landed Unexpectedly
+D092,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1,Package,Small documents,60,18,5,OP011,3/19/2025,95,1.3,2.9,No,Completed
+D093,Bridge Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.5,Camera,High-definition camera,90,38,12,OP002,3/18/2025,60,2.2,5.8,No,Completed
+D094,Crop Monitoring,Small,Agri Scout,AgriDrones,4,1.5,0.8,Camera,Multispectral camera for plant health analysis,45,22,7,OP003,3/17/2025,80,1,3.3,No,Completed
+D095,Real Estate Photography,Small,SkyLens,PhotoFly,4,1.2,0.6,Camera,Wide-angle camera for property showcasing,75,25,4,OP004,3/16/2025,88,1.6,2.5,No,Completed
+D096,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,5,"Camera, Sensor","Corona discharge camera, infrared thermometer",110,55,16,OP002,3/15/2025,50,2.9,7.1,No,Completed
+D097,Traffic Monitoring,Medium,TrafficEye,SecureTech,4,6,2.8,Camera,Real-time video camera for traffic analysis,85,40,10,OP005,3/14/2025,72,1.9,4.5,No,Completed
+D098,Wind Turbine Inspection,Large,BladeChecker,AeroCorp,6,16,9,Camera,High-resolution camera for blade damage assessment,160,65,20,OP002,3/13/2025,45,3.2,8.5,No,Completed
+D099,Construction Site Survey,Medium,SiteScan,GeoSurv,6,11,10.7,"Camera, GPS","High-resolution camera, GPS for site mapping",55,30,8,OP006,3/12/2025,36,4,7.3,Yes,Landed Unexpectedly
+D100,Event Coverage,Small,EventFlyer,PhotoFly,4,1.8,1,Camera,Compact camera for capturing event footage,95,32,6,OP004,3/11/2025,90,1.7,3.9,No,Completed
+D101,Delivery to Remote Area,Medium,LongHaul 400,DeliveryNow,6,10,4,Package,Medical supplies,70,58,28,OP011,3/10/2025,34,4.6,6.7,Yes,Landed Unexpectedly
+D102,Pipeline Inspection,Large,PipePatrol,SkyView Inc.,6,14,7,"Camera, Sensor","Infrared camera, gas leak detector",40,58,18,OP002,3/9/2025,73,2.3,6.8,No,Completed
+D103,Precision Agriculture,Small,FarmPilot,AgriDrones,4,2.5,1.3,Sensor,Soil moisture and nutrient sensors,35,26,9,OP003,3/8/2025,82,1.2,3.7,No,Completed
+D104,Wildlife Monitoring,Small,NatureWatch,EnviroTech,4,1.5,0.7,Camera,Low-light camera for observing wildlife,100,45,15,OP009,3/7/2025,65,1.9,3,No,Completed
+D105,Emergency Response,Large,FirstResponder,RescueFly,8,13,6,"Camera, Speaker","Thermal camera, loudspeaker for communication",130,48,11,OP007,3/6/2025,52,2.7,5.9,No,Completed
+D106,Product Photography,Small,StudioShot,PhotoFly,4,1,0.4,Camera,High-resolution camera for product showcasing,50,15,3,OP004,3/5/2025,98,0.8,1.9,No,Completed
+D107,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,0.9,Package,Books,75,15,4,OP012,4/1/2025,91,1.6,2.8,No,Completed
+D108,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.2,Camera,Zoom lens camera,105,40,13,OP002,4/2/2025,63,2,5.1,No,Completed
+D109,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,16,Liquid Tank,Organic fertilizer,35,32,11,OP003,4/3/2025,48,3,7,No,Completed
+D110,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Infrared camera,90,18,6,OP004,4/4/2025,95,1,1.9,No,Completed
+D111,Surveillance,Medium,Watcher Pro,SecureTech,4,7,4.1,Sensor,Noise detection sensor,110,55,10,OP005,4/5/2025,58,2.3,4.5,No,Completed
+D112,Surveying,Medium,MapMaker Z,GeoSurv,6,10,7.3,GPS,High-precision GPS module,60,38,8,OP006,4/6/2025,79,1.4,3.2,No,Completed
+D113,Search and Rescue,Large,Guardian SR,RescueFly,8,12,4.8,Speaker,Megaphone,145,48,17,OP007,4/7/2025,65,2.6,5.3,No,Completed
+D114,Film Production,Large,CineDrone X,FilmCraft,8,18,11.5,Camera,Stabilized camera rig,55,42,9,OP008,4/8/2025,72,1.9,4,No,Completed
+D115,Environmental Monitoring,Small,AirProbe 1,EnviroTech,4,2,0.9,Sensor,Temperature and humidity sensor,145,25,5,OP009,4/9/2025,29,4.8,7.4,Yes,Landed Unexpectedly
+D116,Warehouse Inventory,Small,StockChecker,InventoryAI,4,3,1.8,RFID Reader,Long-range RFID reader,18,28,3,OP010,4/10/2025,77,0.8,1.3,No,Completed
+D117,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Birthday gift,62,17,4.5,OP012,4/11/2025,93,1.5,2.7,No,Completed
+D118,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Neutral density filters,84,20,5.5,OP004,4/12/2025,90,1.1,2.1,No,Completed
+D119,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.3,Liquid Tank,Water for testing,33,30,9.5,OP003,4/13/2025,31,5,8.3,Yes,Landed Unexpectedly
+D120,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.8,Package,Office supplies,70,23,7.5,OP013,4/14/2025,86,1.9,3.4,No,Completed
+D121,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Polarizing filter,89,22,6.2,OP004,4/15/2025,97,1.4,2.4,No,Completed
+D122,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.3,Camera,Infrared camera for heat detection,102,39,12.5,OP002,4/16/2025,61,2.5,5.7,No,Completed
+D123,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.2,Liquid Tank,Plant growth hormone,29,34,10.5,OP003,4/17/2025,43,3.4,7.6,No,Completed
+D124,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Small appliances,65,21,6.8,OP013,4/18/2025,89,1.7,3.1,No,Completed
+D125,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Wide-angle lens,81,18,5.8,OP004,4/19/2025,94,1.2,2.2,No,Completed
+D126,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.1,Sensor,Acoustic emission sensor,107,42,13.2,OP002,4/20/2025,67,2.2,5.2,No,Completed
+D127,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Medicine,72,19,5.2,OP011,4/21/2025,96,1.4,2.8,No,Completed
+D128,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Time-lapse camera,86,23,6.5,OP004,4/22/2025,91,1.3,2.5,No,Completed
+D129,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Nutrient solution,31,33,10.2,OP003,4/23/2025,41,3.3,7.4,No,Completed
+D130,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Consumer electronics,69,24,7.1,OP013,4/24/2025,87,1.8,3.3,No,Completed
+D131,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Action camera,83,17,5.9,OP004,4/25/2025,99,1,2,No,Completed
+D132,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.7,Camera,High-resolution still camera,105,40,12.8,OP002,4/26/2025,63,2.4,5.9,No,Completed
+D133,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.8,Liquid Tank,Defoliant,27,38,11.5,OP003,4/27/2025,27,5.6,8.8,Yes,Landed Unexpectedly
+D134,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.9,Package,Documents,71,26,8.2,OP013,4/28/2025,84,2,3.6,No,Completed
+D135,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Zoom lens,87,21,6.8,OP004,4/29/2025,92,1.5,2.6,No,Completed
+D136,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,4.8,"Camera, Sensor",Infrared and ultraviolet camera,108,56,14,OP002,5/26/2025,57,2.9,7.2,No,Completed
+D137,Traffic Monitoring,Medium,TrafficEye,SecureTech,4,6,2.9,Camera,Vehicle speed detection camera,82,38,11,OP005,5/27/2025,70,1.8,4,No,Completed
+D138,Wind Turbine Inspection,Large,BladeChecker,AeroCorp,6,16,9.5,Camera,High-frame-rate camera,158,68,21,OP002,5/28/2025,43,3.2,8.3,No,Completed
+D139,Construction Site Survey,Medium,SiteScan,GeoSurv,6,11,7.2,"Camera, GPS",Total station integration,53,35,9,OP006,5/29/2025,80,1.6,3,No,Completed
+D140,Event Coverage,Small,EventFlyer,PhotoFly,4,1.8,0.9,Camera,Live streaming camera,93,30,7,OP004,5/30/2025,94,1.7,3.8,No,Completed
+D141,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Clothing items,68,22,7,OP013,5/1/2025,88,1.8,3.2,No,Completed
+D142,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Standard lens,82,19,5,OP004,5/2/2025,93,1.1,2,No,Completed
+D143,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,32,31,10,OP003,5/3/2025,33,5.2,8.1,Yes,Landed Unexpectedly
+D144,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Food delivery,70,16,4,OP011,5/4/2025,90,1.5,2.9,No,Completed
+D145,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Telephoto lens,88,21,6,OP004,5/5/2025,96,1.3,2.3,No,Completed
+D146,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.8,Camera,Thermal imaging camera,108,38,12,OP002,5/6/2025,65,2.1,5,No,Completed
+D147,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19,Liquid Tank,Fungicide,28,33,9,OP003,5/7/2025,77,5.6,10.9,Yes,Landed Unexpectedly
+D148,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.5,Package,Electronics accessories,72,25,8,OP013,5/8/2025,85,1.7,3,No,Completed
+D149,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,ND filters,85,20,7,OP004,5/9/2025,98,1,2.1,No,Completed
+D150,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.9,Sensor,Gas leak sensor,112,41,14,OP002,5/10/2025,68,2.3,5.5,No,Completed
+D151,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Books,73,16,4.2,OP012,5/11/2025,92,1.6,2.9,No,Completed
+D152,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard lens,81,18,5.2,OP004,5/12/2025,94,1.2,2.3,No,Completed
+D153,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.1,Liquid Tank,Organic fertilizer,34,30,10.5,OP003,5/13/2025,47,3.1,3.5,No,Completed
+D154,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Food delivery,69,15,3.8,OP011,5/14/2025,89,1.4,2.6,No,Completed
+D155,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Telephoto lens,87,20,6.1,OP004,5/15/2025,95,1.3,2.1,No,Completed
+D156,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.5,Camera,Thermal imaging camera,109,37,11.8,OP002,5/16/2025,64,2.2,5.4,No,Completed
+D157,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Fungicide,27,43,8.8,OP003,5/17/2025,30,3.3,8.5,Yes,Landed Unexpectedly
+D158,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.3,Package,Electronics accessories,71,24,7.3,OP013,5/18/2025,87,1.8,3.2,No,Completed
+D159,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,ND filters,84,19,6.5,OP004,5/19/2025,97,1.1,2.2,No,Completed
+D160,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.6,Sensor,Gas leak sensor,111,40,13.5,OP002,5/20/2025,69,2.4,5.7,No,Completed
+D161,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.4,Package,Medicine,70,18,4.9,OP011,5/21/2025,95,1.3,2.7,No,Completed
+D162,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Time-lapse camera,85,22,6.8,OP004,5/22/2025,92,1.2,2.4,No,Completed
+D163,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.5,Liquid Tank,Nutrient solution,32,31,10.8,OP003,5/23/2025,44,3.4,4.3,No,Completed
+D164,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.7,Package,Consumer electronics,68,23,7.5,OP013,5/24/2025,88,1.9,3.4,No,Completed
+D165,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Action camera,82,16,5.5,OP004,5/25/2025,98,1.1,2.1,No,Completed
+D166,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.9,Camera,High-resolution still camera,106,38,12.2,OP002,5/26/2025,62,2.3,5.8,No,Completed
+D167,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.2,Liquid Tank,Defoliant,28,35,11.2,OP003,5/27/2025,29,6,9.2,Yes,Landed Unexpectedly
+D168,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.2,Package,Documents,70,25,7.8,OP013,5/28/2025,85,2.1,3.5,No,Completed
+D169,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom lens,86,20,6.2,OP004,5/29/2025,93,1.4,2.3,No,Completed
+D170,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.2,Sensor,Magnetic particle inspection sensor,110,42,13.8,OP002,5/30/2025,68,2.2,5.5,No,Completed
+D171,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,5.1,Camera,UV inspection camera,102,59,16,OP002,5/21/2025,55,2.7,6.9,No,Completed
+D172,Traffic Monitoring,Medium,TrafficEye,SecureTech,4,6,3,Camera,License plate recognition camera,81,36,10,OP005,5/22/2025,78,1.6,4.1,No,Completed
+D173,Wind Turbine Inspection,Large,BladeChecker,AeroCorp,6,16,8.8,Camera,High-resolution video camera,157,72,29,OP002,5/23/2025,34,3,9.6,Yes,Landed Unexpectedly
+D174,Construction Site Survey,Medium,SiteScan,GeoSurv,6,11,7.3,"Camera, GPS",Real-time kinematic (RTK) GPS,52,33,8,OP006,5/24/2025,85,1.3,3.1,No,Completed
+D175,Event Coverage,Small,EventFlyer,PhotoFly,4,1.8,0.9,Camera,360-degree video camera,92,29,5.5,OP004,5/25/2025,91,1.8,3.8,No,Completed
+D176,Delivery to Remote Area,Medium,LongHaul 400,DeliveryNow,6,10,3.8,Package,Emergency rations,68,53,29,OP011,5/26/2025,36,2.4,9.6,Yes,Landed Unexpectedly
+D177,Pipeline Inspection,Large,PipePatrol,SkyView Inc.,6,14,6.8,Sensor,Ultrasonic leak detector,38,62,22,OP002,5/27/2025,80,2.1,6.7,Yes,Completed
+D178,Precision Agriculture,Small,FarmPilot,AgriDrones,4,2.5,1.2,Sensor,Leaf area index sensor,45,25,8.5,OP003,5/28/2025,88,1.1,4,No,Completed
+D179,Wildlife Monitoring,Small,NatureWatch,EnviroTech,4,1.5,0.7,Camera,Trail camera,108,52,17,OP009,5/29/2025,70,1.6,4.5,Yes,Completed
+D180,Emergency Response,Large,FirstResponder,RescueFly,8,13,6.2,First Aid Kit,Basic medical supplies,138,47,12,OP007,5/30/2025,58,2.8,5.8,Yes,Completed
+D181,Product Photography,Small,StudioShot,PhotoFly,4,1,0.6,Camera,Macro lens camera,52,17,3.5,OP004,5/31/2025,95,0.8,2,No,Completed
+D182,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.3,Package,Clothing items,70,23,7.2,OP013,5/1/2025,89,1.7,3.3,No,Completed
+D183,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard lens,83,20,5.3,OP004,5/2/2025,92,1.2,2.1,No,Completed
+D184,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Herbicide,33,32,10.8,OP003,5/3/2025,46,3.2,7.5,No,Completed
+D185,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Food delivery,71,15,4.1,OP011,5/4/2025,91,1.4,2.8,No,Completed
+D186,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Telephoto lens,86,21,6.3,OP004,5/5/2025,60,1.3,10.5,Yes,Landed Unexpectedly
+D187,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.3,Camera,Thermal imaging camera,110,39,12.1,OP002,5/6/2025,63,2.3,5.6,No,Completed
+D188,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.2,Liquid Tank,Fungicide,29,33,9.2,OP003,5/7/2025,44,3.4,7.7,No,Completed
+D189,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Electronics accessories,73,26,7.5,OP013,5/8/2025,86,1.6,3.1,No,Completed
+D058,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Small appliances,65,21,6.8,OP013,4/18/2025,89,1.7,3.1,No,Completed
+D190,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,ND filters,82,18,6.1,OP004,5/9/2025,97,1.1,2.3,No,Completed
+D191,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.8,Sensor,Gas leak sensor,113,42,13.8,OP002,5/10/2025,70,2.1,5.3,No,Completed
+D192,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Medicine,71,17,5.5,OP011,5/11/2025,94,1.5,2.9,No,Completed
+D193,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Time-lapse camera,88,21,6.8,OP004,5/12/2025,93,1.3,2.6,No,Completed
+D194,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.9,Liquid Tank,Nutrient solution,30,34,10.5,OP003,5/13/2025,42,3.3,7.1,No,Landed Unexpectedly
+D195,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.8,Package,Consumer electronics,72,25,7.8,OP013,5/14/2025,85,1.7,11.3,No,Completed
+D196,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Action camera,81,19,5.2,OP004,5/15/2025,96,1.1,2.1,No,Completed
+D197,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.5,Camera,High-resolution still camera,107,37,12.5,OP002,5/16/2025,65,2.4,5.8,Yes,Completed
+D198,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Defoliant,26,37,11.8,OP003,5/17/2025,40,3.6,8,No,Completed
+D199,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Documents,73,22,7.1,OP013,5/18/2025,88,2,3.7,No,Completed
+D200,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Zoom lens,89,23,6.5,OP004,5/19/2025,91,1.5,2.7,No,Completed
+D201,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.4,Sensor,Magnetic particle inspection sensor,112,41,13.2,OP002,5/20/2025,67,2.2,5.4,Yes,Completed
+D202,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,5.2,Camera,UV inspection camera,101,60,17,OP002,5/21/2025,53,2.9,7,No,Completed
+D203,Traffic Monitoring,Medium,TrafficEye,SecureTech,4,6,3.2,Camera,License plate recognition camera,82,37,10.5,OP005,5/22/2025,76,1.7,4.3,No,Completed
+D204,Wind Turbine Inspection,Large,BladeChecker,AeroCorp,6,16,8.9,Camera,High-resolution video camera,156,71,22.5,OP002,5/23/2025,41,3.1,8.1,No,Completed
+D205,Construction Site Survey,Medium,SiteScan,GeoSurv,6,11,7.1,"Camera, GPS",Real-time kinematic (RTK) GPS,51,34,7.5,OP006,5/24/2025,84,1.4,3,No,Completed
+D206,Event Coverage,Small,EventFlyer,PhotoFly,4,1.8,0.9,Camera,360-degree video camera,91,30,5.2,OP004,5/25/2025,93,1.9,3.9,No,Completed
+D008,Film Production,Large,CineDrone X,FilmCraft,8,18,10,Camera,Professional cinema camera with gimbal,60,40,7,OP008,3/27/2025,70,2,4.2,No,Completed
+D009,Environmental Monitoring,Small,AirProbe 1,EnviroTech,4,2,1.2,Sensor,Air quality sampling device,40,28,6,OP009,3/28/2025,88,1.1,2.7,No,Completed
+D010,Warehouse Inventory,Small,StockChecker,InventoryAI,4,3,1.5,Scanner,Barcode and RFID scanner,15,30,4,OP010,3/29/2025,75,0.9,1.5,No,Completed
+D011,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1,Package,Small documents,60,18,5,OP011,3/19/2025,95,1.3,2.9,No,Completed
+D012,Bridge Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.5,Camera,High-definition camera,90,38,12,OP002,3/18/2025,60,2.2,5.8,No,Completed
+D013,Crop Monitoring,Small,Agri Scout,AgriDrones,4,1.5,0.8,Camera,Multispectral camera for plant health analysis,45,22,7,OP003,3/17/2025,80,1,3.3,No,Completed
+D014,Real Estate Photography,Small,SkyLens,PhotoFly,4,1.2,0.6,Camera,Wide-angle camera for property showcasing,75,25,4,OP004,3/16/2025,88,1.6,2.5,No,Completed
+D015,Power Line Inspection,Medium,VoltGuard,SkyView Inc.,6,9,5,"Camera, Sensor","Corona discharge camera, infrared thermometer",110,55,16,OP002,3/15/2025,50,2.9,7.1,Yes,Completed
+D207,Delivery to Remote Area,Medium,LongHaul 400,DeliveryNow,6,10,3.6,Package,Emergency rations,67,54,27,OP011,5/26/2025,61,2.5,5,No,Completed
+D208,Pipeline Inspection,Large,PipePatrol,SkyView Inc.,6,14,6.9,Sensor,Ultrasonic leak detector,39,61,21.5,OP002,5/27/2025,79,2.2,6.6,Yes,Completed
+D209,Precision Agriculture,Small,FarmPilot,AgriDrones,4,2.5,1.2,Sensor,Leaf area index sensor,44,27,8.2,OP003,5/28/2025,87,1.2,3.8,No,Completed
+D210,Wildlife Monitoring,Small,NatureWatch,EnviroTech,4,1.5,0.8,Camera,Trail camera,107,51,16.5,OP009,5/29/2025,69,1.7,4.4,No,Completed
+D211,Emergency Response,Large,FirstResponder,RescueFly,8,13,6.1,First Aid Kit,Basic medical supplies,137,46,11.5,OP007,5/30/2025,56,2.8,5.9,Yes,Completed
+D212,Product Photography,Small,StudioShot,PhotoFly,4,1,0.7,Camera,Macro lens camera,51,18,3.2,OP004,5/31/2025,94,0.9,2.1,No,Completed
+D213,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.4,Package,Clothing items,69,21,7.1,OP013,5/1/2025,87,1.9,3.4,No,Completed
+D214,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard lens,82,19,5.4,OP004,5/2/2025,91,1.3,2.2,No,Completed
+D215,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.6,Liquid Tank,Herbicide,31,30,10.2,OP003,5/3/2025,44,3.3,7.4,No,Completed
+D216,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Food delivery,70,14,4.3,OP011,5/4/2025,88,1.6,2.7,No,Completed
+D217,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Telephoto lens,85,22,6.5,OP004,5/5/2025,95,1.2,2.3,No,Completed
+D218,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.6,Camera,Thermal imaging camera,107,38,11.9,OP002,5/6/2025,66,2.1,5.5,Yes,Completed
+D219,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.5,Liquid Tank,Fungicide,28,31,9.5,OP003,5/7/2025,43,3.5,7.8,No,Completed
+D220,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.2,Package,Electronics accessories,71,23,7.1,OP013,5/8/2025,87,1.8,3.2,No,Completed
+D221,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,ND filters,83,17,5.8,OP004,5/9/2025,99,1,2.1,No,Completed
+D222,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.7,Sensor,Gas leak sensor,110,40,13.2,OP002,5/10/2025,71,2.3,5.4,No,Completed
+D223,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.4,Package,Medicine,73,18,5.1,OP011,5/11/2025,93,1.4,2.8,No,Completed
+D224,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.9,Camera,Time-lapse camera,87,24,6.2,OP004,5/12/2025,90,1.2,2.5,No,Completed
+D225,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.7,Liquid Tank,Nutrient solution,30,32,10.5,OP003,5/13/2025,45,3.2,7.3,No,Completed
+D226,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.5,Package,Consumer electronics,70,22,7.4,OP013,5/14/2025,86,1.9,3.5,No,Completed
+D227,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Action camera,84,16,5.8,OP004,5/15/2025,97,1,2.2,No,Completed
+D228,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,4.8,Camera,High-resolution still camera,106,39,12.8,OP002,5/16/2025,64,2.5,5.9,No,Completed
+D229,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Defoliant,29,34,11.8,OP003,5/17/2025,42,3.4,7.7,No,Completed
+D230,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.9,Package,Documents,72,27,8.1,OP013,5/18/2025,83,2.1,3.8,No,Completed
+D231,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Zoom lens,88,20,6.1,OP004,5/19/2025,90,1.5,2.6,No,Completed
+D232,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.1,Sensor,Magnetic particle inspection sensor,113,43,13.5,OP002,5/20/2025,69,2.2,5.2,No,Completed
+D233,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.3,Package,Clothing items,70,23,7.2,OP013,5/26/2025,82,1.9,3.5,No,Completed
+D234,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard lens,86,22,7,OP004,5/27/2025,95,1.2,2.2,No,Completed
+D235,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.2,Liquid Tank,Insecticide,30,34,11,OP003,5/28/2025,40,3.4,7.9,No,Completed
+D236,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Small electronics,65,17,5,OP011,5/29/2025,91,1.4,2.7,No,Completed
+D237,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Gimbal stabilizer,89,20,6,OP004,5/30/2025,97,1.1,2.4,No,Completed
+D238,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,5.5,Camera,High-resolution camera,110,39,13,OP002,5/31/2025,62,2.2,5.3,No,Completed
+D239,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.5,Liquid Tank,Growth regulator,25,32,10,OP003,6/1/2025,38,3.6,8.1,No,Completed
+D240,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,,Package,Gifts,75,24,7,OP013,6/2/2025,80,1.6,3.3,No,Completed
+D241,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,UV filter,83,18,5,OP004,6/3/2025,99,1,1.9,No,Completed
+D242,Infrastructure Inspection,Medium,ViewMax 500,Inspecta X,4,8,6.1,Sensor,Corrosion detection sensor,105,40,12,OP002,6/4/2025,70,2,4.8,No,Completed
+A2001,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,6,Package,Fragile electronics,45,22,7,OP001,3/4/2025,70,2.3,4,Yes,Landed Unexpectedly
+D243,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.7,Package,Electronics,65,23,7.8,OP015,6/5/2025,83,1.7,3.1,No,Completed
+D244,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Wide lens,88,18,5.1,OP007,6/6/2025,96,1.2,2.4,No,Completed
+D245,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.5,Liquid Tank,Pesticide,31,35,11.2,OP003,6/7/2025,41,3.5,7.9,Yes,Completed
+D246,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.1,Camera,Thermal,102,41,13.5,OP002,6/8/2025,67,2.1,5.3,No,Completed
+D247,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Clothing,72,19,6.3,OP011,6/9/2025,91,1.4,2.8,No,Completed
+D248,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom,85,20,5.9,OP004,6/10/2025,94,1.3,2.5,No,Completed
+D249,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,29,33,9.8,OP003,6/11/2025,43,3.3,7.6,Yes,Completed
+D249,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,29,33,9.8,OP003,6/11/2025,43,3.3,7.6,Yes,Completed
+D249,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,29,33,9.8,OP003,6/11/2025,43,3.3,7.6,No,Completed
+D249,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,29,33,9.8,OP003,6/11/2025,43,3.3,7.6,No,Completed
+D249,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,29,33,9.8,OP003,6/11/2025,43,3.3,7.6,No,Completed
+D249,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,29,33,9.8,OP003,6/11/2025,43,3.3,7.6,No,Completed
+D250,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.8,Sensor,Gas,108,39,12.1,OP002,6/12/2025,69,2.2,5.1,No,Completed
+D251,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.5,Package,Documents,68,24,7.1,OP015,6/13/2025,85,1.8,3.4,No,Completed
+D252,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,ND filter,82,17,5.5,OP007,6/14/2025,97,1.1,2.2,No,Completed
+D253,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.9,Liquid Tank,Fungicide,32,34,10.5,OP003,6/15/2025,40,3.4,7.8,Yes,Completed
+D254,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.4,Camera,Visual,105,40,13.2,OP002,6/16/2025,64,2.3,5.5,No,Completed
+D255,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Electronics,70,18,6.1,OP011,6/17/2025,93,1.5,2.9,No,Completed
+D256,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide angle,87,19,5.7,OP004,6/18/2025,95,1.2,2.3,No,Completed
+D257,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Insecticide,28,32,9.5,OP003,6/19/2025,42,3.2,7.7,Yes,Completed
+D258,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Temperature,109,42,12.8,OP002,6/20/2025,70,2.4,5.2,No,Completed
+D259,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.8,Package,Small items,69,25,7.5,OP015,6/21/2025,88,1.9,3.3,No,Completed
+D260,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Telephoto,83,21,6.2,OP007,6/22/2025,96,1.3,2.4,No,Completed
+D261,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.5,Liquid Tank,Herbicide,33,31,10.2,OP003,6/23/2025,45,3.1,7.4,Yes,Completed
+D262,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.2,Camera,Infrared,106,38,13.1,OP002,6/24/2025,63,2.2,5.4,No,Completed
+D263,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Documents,71,17,5.9,OP011,6/25/2025,92,1.6,2.7,No,Completed
+D264,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard,86,20,5.8,OP004,6/26/2025,94,1.1,2.1,No,Completed
+D265,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Fungicide,27,35,9.9,OP003,6/27/2025,44,3.5,7.8,No,Completed
+D266,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Pressure,110,41,12.5,OP002,6/28/2025,68,2.3,5.1,No,Completed
+D267,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.9,Package,Consumer goods,67,22,7.3,OP015,6/29/2025,87,1.7,3.2,No,Completed
+D268,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Zoom lens,84,19,5.2,OP007,6/30/2025,95,1.2,2.3,No,Completed
+D269,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.5,Liquid Tank,Insecticide,30,32,10.8,OP003,7/1/2025,42,3.3,7.5,No,Completed
+D270,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,High-res,103,39,13.8,OP002,7/2/2025,65,2.4,5.6,No,Completed
+D271,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Small package,73,16,6.5,OP011,7/3/2025,90,1.4,2.9,No,Completed
+D272,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Wide angle,89,20,5.8,OP004,7/4/2025,93,1.1,2.1,No,Completed
+D273,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.1,Liquid Tank,Herbicide,34,34,10.1,OP003,7/5/2025,47,3.1,7.2,No,Landed Unexpectedly
+D274,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.6,Sensor,Vibration,107,40,12.5,OP002,7/6/2025,68,2.2,5.3,No,Completed
+D275,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Fragile goods,71,25,7.2,OP015,7/7/2025,86,1.8,3.5,No,Completed
+D276,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Telephoto,81,17,5.3,OP007,7/8/2025,98,1.3,2.4,No,Completed
+D277,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Fungicide,26,32,9.2,OP003,7/9/2025,41,3.4,7.7,No,Completed
+D278,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.3,Camera,Zoom,104,42,13.9,OP002,7/10/2025,62,2.5,5.7,No,Completed
+D279,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.4,Package,Gift,70,19,6.1,OP011,7/11/2025,94,1.5,2.8,No,Completed
+D280,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard lens,87,20,5.7,OP004,7/12/2025,95,1.1,2.2,No,Completed
+D281,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.6,Liquid Tank,Insecticide,33,33,10.5,OP003,7/13/2025,46,5,8.9,No,Landed Unexpectedly
+D282,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,109,38,12.2,OP002,7/14/2025,69,2.1,5.4,No,Completed
+D283,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Electronics,66,23,7.5,OP015,7/15/2025,89,1.7,3.1,No,Completed
+D284,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide lens,82,18,5.9,OP007,7/16/2025,97,1.2,2.5,No,Completed
+D285,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.2,Liquid Tank,Herbicide,28,35,9.8,OP003,7/17/2025,43,3.5,7.6,No,Completed
+D286,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,Thermal,103,41,13.1,OP002,7/18/2025,64,2.4,5.2,No,Completed
+D287,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Clothing,73,19,6.1,OP011,7/19/2025,92,1.4,2.7,No,Completed
+D288,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom,85,20,5.5,OP004,7/20/2025,96,1.3,2.3,No,Completed
+D289,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.1,Liquid Tank,Fungicide,31,33,9.5,OP003,7/21/2025,34,3.3,8.6,Yes,Landed Unexpectedly
+D290,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Gas,106,39,12.8,OP002,7/22/2025,67,2.2,5.5,No,Completed
+D291,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.2,Package,Documents,69,24,7.9,OP015,7/23/2025,87,1.8,3.4,No,Completed
+D292,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,ND filter,88,17,5.2,OP007,7/24/2025,99,1.1,2.1,No,Completed
+D293,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Insecticide,34,34,10.2,OP003,7/25/2025,45,3.4,7.7,Yes,Completed
+D294,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.1,Camera,Visual,104,40,13.5,OP002,7/26/2025,63,2.3,5.1,No,Completed
+D295,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Electronics,71,18,6.3,OP011,7/27/2025,90,1.5,2.8,No,Completed
+D296,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide angle,83,19,5.6,OP004,7/28/2025,93,1.2,2.4,No,Completed
+D297,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.5,Liquid Tank,Herbicide,29,32,9.9,OP003,7/29/2025,32,3.2,8.4,Yes,Landed Unexpectedly
+D298,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.6,Sensor,Temperature,107,42,12.8,OP002,7/30/2025,66,2.4,5.3,No,Completed
+D299,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.4,Package,Small items,72,25,7.1,OP015,7/31/2025,86,1.9,3.2,No,Completed
+D300,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Telephoto,89,21,6.5,OP007,8/1/2025,97,1.3,2.5,No,Completed
+D301,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.2,Liquid Tank,Fungicide,32,31,10.5,OP003,8/2/2025,41,3.1,7.4,No,Completed
+D302,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.1,Camera,Infrared,104,38,13.2,OP002,8/3/2025,69,2.2,5.1,No,Completed
+D303,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Documents,70,17,5.8,OP011,8/4/2025,93,1.6,2.8,No,Completed
+D304,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard,83,20,5.9,OP004,8/5/2025,95,1.1,2.3,No,Completed
+D305,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.9,Liquid Tank,Insecticide,27,35,9.8,OP003,8/6/2025,30,3.5,9.1,Yes,Landed Unexpectedly
+D306,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.8,Sensor,Pressure,108,41,12.5,OP002,8/7/2025,67,2.3,5.4,No,Completed
+D307,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.7,Package,Consumer goods,68,22,7.1,OP015,8/8/2025,88,1.7,3.5,No,Completed
+D308,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Zoom lens,81,19,5.2,OP007,8/9/2025,96,1.2,2.1,No,Completed
+D309,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.3,Liquid Tank,Herbicide,30,32,10.8,OP003,8/10/2025,31,6,8.8,Yes,Landed Unexpectedly
+D310,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.6,Camera,High-res,105,39,13.8,OP002,8/11/2025,65,2.4,5.2,No,Completed
+D311,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.4,Package,Small package,72,16,6.2,OP011,8/12/2025,91,1.4,2.9,No,Completed
+D312,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.9,Camera,Wide angle,86,20,5.5,OP004,8/13/2025,94,1.1,2.3,No,Completed
+D313,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.5,Liquid Tank,Fungicide,33,34,10.1,OP003,8/14/2025,47,3.1,7.1,No,Completed
+D314,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Vibration,109,40,12.5,OP002,8/15/2025,68,2.2,5.5,Yes,Completed
+D315,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.3,Package,Fragile goods,70,25,7.9,OP015,8/16/2025,83,1.8,3.4,No,Completed
+D316,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Telephoto,84,17,5.3,OP007,8/17/2025,97,1.3,2.2,No,Completed
+D317,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Insecticide,29,32,9.2,OP003,8/18/2025,28,3.4,8.9,Yes,Landed Unexpectedly
+D318,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.4,Camera,Zoom,106,42,13.9,OP002,8/19/2025,62,2.5,5.7,No,Completed
+D319,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Gift,71,19,6.5,OP011,8/20/2025,92,1.5,2.9,No,Completed
+D320,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard lens,85,20,5.7,OP004,8/21/2025,94,1.1,2.1,No,Completed
+D321,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Herbicide,32,33,10.5,OP003,8/22/2025,45,3.3,7.3,No,Completed
+D322,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,108,38,12.2,OP002,8/23/2025,69,2.1,5.4,No,Completed
+D323,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Electronics,67,23,7.2,OP015,8/24/2025,84,1.8,3.2,No,Completed
+D324,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Wide lens,89,18,5.9,OP007,8/25/2025,97,1.2,2.4,No,Completed
+D325,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.1,Liquid Tank,Fungicide,31,35,9.8,OP003,8/26/2025,40,3.5,7.9,No,Completed
+D326,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,Thermal,102,41,13.5,OP002,8/27/2025,63,2.3,5.1,No,Completed
+D327,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Clothing,72,19,6.1,OP011,8/28/2025,90,1.5,2.8,No,Completed
+D328,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Zoom,84,20,5.7,OP004,8/29/2025,93,1.3,2.5,No,Completed
+D329,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.9,Liquid Tank,Insecticide,28,33,9.5,OP003,8/30/2025,42,3.2,7.6,No,Completed
+D330,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.8,Sensor,Temperature,108,39,12.1,OP002,8/31/2025,69,2.4,5.3,No,Completed
+D331,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.9,Package,Documents,69,24,7.8,OP015,9/1/2025,85,1.9,3.4,No,Completed
+D332,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,ND filter,81,17,5.5,OP007,9/2/2025,97,1.1,2.2,No,Completed
+D333,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Herbicide,33,34,10.5,OP003,9/3/2025,40,3.4,7.8,No,Completed
+D334,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.2,Camera,Visual,105,40,13.2,OP002,9/4/2025,64,2.3,5.5,No,Completed
+D335,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Electronics,70,18,6.1,OP011,9/5/2025,93,1.5,2.9,No,Completed
+D336,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide angle,87,19,5.7,OP004,9/6/2025,95,1.2,2.3,No,Completed
+D245,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.5,Liquid Tank,Pesticide,31,35,11.2,OP003,6/7/2025,41,3.5,7.9,No,Completed
+D246,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.1,Camera,Thermal,102,41,13.5,OP002,6/8/2025,67,2.1,5.3,No,Completed
+D247,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Clothing,72,19,6.3,OP011,6/9/2025,91,1.4,2.8,No,Completed
+D248,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom,85,20,5.9,OP004,6/10/2025,94,1.3,2.5,No,Completed
+D249,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Herbicide,29,33,9.8,OP003,6/11/2025,43,3.3,7.6,No,Completed
+D337,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.5,Liquid Tank,Fungicide,26,32,9.5,OP003,9/7/2025,42,3.2,7.7,No,Completed
+D338,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Temperature,109,42,12.8,OP002,9/8/2025,70,2.4,5.2,Yes,Completed
+D339,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.8,Package,Small items,69,25,7.5,OP015,9/9/2025,88,1.9,3.3,No,Completed
+D340,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Telephoto,83,21,6.2,OP007,9/10/2025,96,1.3,2.4,No,Completed
+D341,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Insecticide,100,44,10.2,OP003,9/11/2025,45,5,7.4,Yes,Landed Unexpectedly
+D342,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.2,Camera,Infrared,106,38,13.1,OP002,9/12/2025,63,2.2,5.4,No,Completed
+D343,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Documents,71,17,5.9,OP011,9/13/2025,92,1.6,2.7,No,Completed
+D344,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard,86,20,5.8,OP004,9/14/2025,94,1.1,2.1,No,Completed
+D345,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.5,Liquid Tank,Herbicide,27,35,9.9,OP003,9/15/2025,44,3.5,7.8,Yes,Completed
+D346,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Pressure,110,41,12.5,OP002,9/16/2025,68,2.3,5.1,No,Completed
+D347,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.9,Package,Consumer goods,67,22,7.3,OP015,9/17/2025,87,1.7,3.2,No,Completed
+D348,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Zoom lens,84,19,5.2,OP007,9/18/2025,95,1.2,2.3,No,Completed
+D349,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Fungicide,30,32,10.8,OP003,9/19/2025,42,3.3,7.5,No,Completed
+D350,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,High-res,103,39,13.8,OP002,9/20/2025,65,2.4,5.6,No,Completed
+D351,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Small package,73,16,8.1,OP011,9/21/2025,34,3.9,6.8,Yes,Landed Unexpectedly
+D352,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Wide angle,89,20,5.8,OP004,9/22/2025,23,4,8.9,No,Landed Unexpectedly
+D353,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.5,Liquid Tank,Insecticide,34,38,10.1,OP003,9/23/2025,28,4.4,8.6,Yes,Landed Unexpectedly
+D354,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.6,Sensor,Vibration,107,40,12.5,OP002,9/24/2025,18,2.2,6.8,Yes,Landed Unexpectedly
+D355,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Fragile goods,71,25,7.2,OP015,9/25/2025,21,1.8,7.8,No,Landed Unexpectedly
+D356,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Telephoto,81,17,5.3,OP007,9/26/2025,17,1.3,8.9,No,Landed Unexpectedly
+D357,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,20.1,Liquid Tank,Herbicide,26,32,9.2,OP003,9/27/2025,24,4.8,9.1,Yes,Landed Unexpectedly
+D358,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.3,Camera,Zoom,104,48,13.9,OP002,9/28/2025,33,3.5,6.8,Yes,Landed Unexpectedly
+D359,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.4,Package,Gift,70,19,6.1,OP011,9/29/2025,17,1.5,8.9,Yes,Landed Unexpectedly
+D360,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard lens,87,20,5.7,OP004,9/30/2025,95,1.1,2.2,No,Completed
+D361,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.6,Liquid Tank,Fungicide,33,33,10.5,OP003,10/1/2025,46,3.3,7.3,No,Completed
+D362,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,109,38,12.2,OP002,10/2/2025,69,2.1,5.4,No,Completed
+D363,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Electronics,66,23,7.5,OP015,10/3/2025,89,1.7,3.1,No,Completed
+D364,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide lens,82,18,5.9,OP007,10/4/2025,97,1.2,2.5,No,Completed
+D365,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.2,Liquid Tank,Insecticide,28,35,9.8,OP003,10/5/2025,43,3.5,7.6,No,Completed
+D366,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,Thermal,103,41,13.1,OP002,10/6/2025,64,2.4,5.2,No,Completed
+D367,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Clothing,73,19,6.1,OP011,10/7/2025,92,1.4,2.7,No,Completed
+D368,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom,85,20,5.5,OP004,10/8/2025,96,1.3,2.3,No,Completed
+D369,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.1,Liquid Tank,Herbicide,31,33,9.5,OP003,10/9/2025,40,3.3,7.9,No,Completed
+D370,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Gas,106,39,12.8,OP002,10/10/2025,67,2.2,5.5,No,Completed
+D371,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.2,Package,Documents,69,30,7.9,OP015,10/11/2025,22,1.8,6.9,Yes,Landed Unexpectedly
+D372,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,ND filter,88,17,5.2,OP007,10/12/2025,17,1.1,9,No,Landed Unexpectedly
+D373,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,21,Liquid Tank,Fungicide,34,34,10.2,OP003,10/13/2025,23,3.4,9,Yes,Landed Unexpectedly
+D374,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.1,Camera,Visual,104,40,13.5,OP002,10/14/2025,32,3.2,9.7,Yes,Landed Unexpectedly
+D375,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Electronics,71,18,6.3,OP011,10/15/2025,22,1.5,11.3,No,Landed Unexpectedly
+D376,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide angle,83,19,5.6,OP004,10/16/2025,21,1.2,10.3,No,Landed Unexpectedly
+D377,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.8,Liquid Tank,Insecticide,29,32,9.9,OP003,10/17/2025,19,3.2,10.3,Yes,Landed Unexpectedly
+D378,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.6,Sensor,Temperature,107,42,12.8,OP002,10/18/2025,22,2.4,11.4,Yes,Landed Unexpectedly
+D379,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.4,Package,Small items,72,25,7.1,OP015,10/19/2025,23,2,12.4,No,Landed Unexpectedly
+D380,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Telephoto,89,21,6.5,OP007,10/20/2025,25,4,7.8,No,Landed Unexpectedly
+D381,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.9,Liquid Tank,Herbicide,32,31,10.5,OP003,10/21/2025,30,3.1,9.8,Yes,Landed Unexpectedly
+D382,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.1,Camera,Infrared,104,38,13.2,OP002,10/22/2025,24,2.2,9.9,Yes,Landed Unexpectedly
+D383,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Documents,70,17,5.8,OP011,10/23/2025,34,1.6,8.8,No,Landed Unexpectedly
+D384,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard,83,20,5.9,OP004,10/24/2025,33,4,7.9,No,Landed Unexpectedly
+D385,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,20.4,Liquid Tank,Fungicide,27,35,9.8,OP003,10/25/2025,28,3.5,12.5,Yes,Landed Unexpectedly
+D386,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.8,Sensor,Pressure,108,41,12.5,OP002,10/26/2025,33,2.3,9.6,Yes,Landed Unexpectedly
+D387,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.7,Package,Consumer goods,68,22,7.1,OP015,10/27/2025,32,5.4,9.9,No,Landed Unexpectedly
+D388,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom lens,81,33,5.2,OP007,10/28/2025,26,3.2,9.9,No,Landed Unexpectedly
+D389,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,20.2,Liquid Tank,Insecticide,30,39,10.8,OP003,10/29/2025,22,3.3,8.6,Yes,Landed Unexpectedly
+D390,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,6,Camera,High-res,105,39,13.8,OP002,10/30/2025,28,2.4,12.5,Yes,Landed Unexpectedly
+D391,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.7,Package,Small package,72,16,6.2,OP011,10/31/2025,29,3.2,9.9,No,Landed Unexpectedly
+D392,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.9,Camera,Wide angle,86,33,5.5,OP004,11/1/2025,21,4.3,8.7,No,Landed Unexpectedly
+D393,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,20.1,Liquid Tank,Herbicide,33,34,10.1,OP003,11/2/2025,22,4,8.9,Yes,Landed Unexpectedly
+D394,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5,Sensor,Vibration,109,40,12.5,OP002,11/3/2025,20,5,8,Yes,Landed Unexpectedly
+D395,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.3,Package,Fragile goods,70,25,7.9,OP015,11/4/2025,83,1.8,3.4,No,Completed
+D396,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Telephoto,84,17,5.3,OP007,11/5/2025,97,1.3,2.2,No,Completed
+D397,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Fungicide,29,32,9.2,OP003,11/6/2025,40,3.4,7.8,No,Completed
+D398,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.4,Camera,Zoom,106,42,13.9,OP002,11/7/2025,62,2.5,5.7,No,Completed
+D399,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Gift,71,19,6.5,OP011,11/8/2025,92,1.5,2.9,No,Completed
+D400,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard lens,85,20,5.7,OP004,11/9/2025,94,1.1,2.1,No,Completed
+D401,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Insecticide,32,33,10.5,OP003,11/10/2025,22,3.3,7.3,Yes,Completed
+D402,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,108,38,12.2,OP002,11/11/2025,69,2.1,5.4,No,Landed Unexpectedly
+D403,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Electronics,67,23,7.2,OP015,11/12/2025,84,1.8,3.2,No,Completed
+D404,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Wide lens,89,18,5.9,OP007,11/13/2025,97,1.2,2.4,No,Completed
+D405,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.1,Liquid Tank,Herbicide,30,32,10.8,OP003,11/14/2025,42,3.3,7.5,No,Completed
+D406,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,High-res,103,39,13.8,OP002,11/15/2025,65,2.4,5.6,No,Completed
+D407,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Small package,73,16,6.5,OP011,11/16/2025,90,1.4,2.9,No,Completed
+D408,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Wide angle,86,20,5.8,OP004,11/17/2025,93,1.1,2.1,No,Completed
+D409,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.1,Liquid Tank,Fungicide,34,34,10.1,OP003,11/18/2025,47,3.1,7.2,No,Completed
+D410,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.6,Sensor,Vibration,107,40,12.5,OP002,11/19/2025,68,2.2,5.3,Yes,Completed
+D411,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.3,Package,Fragile goods,70,25,7.9,OP015,11/20/2025,83,1.8,3.4,No,Completed
+D412,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Telephoto,84,17,5.3,OP007,11/21/2025,97,1.3,2.2,No,Completed
+D413,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Insecticide,29,32,9.2,OP003,11/22/2025,40,3.4,7.8,No,Completed
+D414,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.4,Camera,Zoom,106,42,13.9,OP002,11/23/2025,62,2.5,5.7,No,Completed
+D415,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Gift,71,19,6.5,OP011,11/24/2025,92,1.5,2.9,No,Completed
+D416,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard lens,85,20,5.7,OP004,11/25/2025,94,1.1,2.1,No,Completed
+D417,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Herbicide,32,33,10.5,OP003,11/26/2025,45,3.3,7.3,No,Completed
+D418,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,108,38,12.2,OP002,11/27/2025,69,2.1,5.4,No,Completed
+D419,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Electronics,67,23,7.2,OP015,11/28/2025,84,1.8,3.2,No,Completed
+D420,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Wide lens,89,18,5.9,OP007,11/29/2025,97,1.2,2.4,No,Completed
+D421,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.8,Liquid Tank,Fungicide,31,38,9.8,OP003,11/30/2025,26,4.6,8.8,Yes,Landed Unexpectedly
+D422,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,Thermal,102,47,13.5,OP002,12/1/2025,35,4,6.3,Yes,Landed Unexpectedly
+D423,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Clothing,72,19,6.3,OP011,12/2/2025,91,1.4,2.8,No,Completed
+D424,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom,85,20,5.9,OP004,12/3/2025,94,1.3,2.5,No,Completed
+D425,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,20.5,Liquid Tank,Insecticide,29,36,9.8,OP003,12/4/2025,24,4.3,8.4,Yes,Landed Unexpectedly
+D426,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.8,Sensor,Gas,108,39,12.1,OP002,12/5/2025,69,2.2,5.1,No,Completed
+D427,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.5,Package,Documents,68,24,7.1,OP015,12/6/2025,85,1.8,3.4,No,Completed
+D428,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,ND filter,82,17,5.5,OP007,12/7/2025,97,1.1,2.2,No,Completed
+D429,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.9,Liquid Tank,Herbicide,32,34,11.6,OP003,12/8/2025,27,4.9,9.4,Yes,Landed Unexpectedly
+D430,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.4,Camera,Visual,105,40,13.2,OP002,12/9/2025,64,2.3,5.5,No,Completed
+D431,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.1,Package,Electronics,70,18,6.1,OP011,12/10/2025,93,1.5,2.9,No,Completed
+D432,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide angle,87,19,5.7,OP004,12/11/2025,95,1.2,2.3,No,Completed
+D433,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Fungicide,28,32,9.5,OP003,12/12/2025,42,3.2,7.7,No,Completed
+D434,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Temperature,109,42,12.8,OP002,12/13/2025,70,2.4,5.2,No,Completed
+D435,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.8,Package,Small items,69,25,7.5,OP015,12/14/2025,88,1.9,3.3,No,Completed
+D436,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,1,Camera,Telephoto,83,21,6.2,OP007,12/15/2025,96,1.3,7,Yes,Landed Unexpectedly
+D437,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.5,Liquid Tank,Insecticide,33,31,10.2,OP003,12/16/2025,45,3.1,7.4,No,Completed
+D438,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.2,Camera,Infrared,106,38,13.1,OP002,12/17/2025,63,2.2,5.4,No,Completed
+D439,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Documents,71,17,5.9,OP011,12/18/2025,92,1.6,2.7,No,Completed
+D440,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard,86,20,5.8,OP004,12/19/2025,94,1.1,2.1,No,Completed
+D441,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Herbicide,27,35,9.9,OP003,12/20/2025,44,3.5,7.8,No,Completed
+D442,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Pressure,110,41,12.5,OP002,12/21/2025,68,2.3,5.1,No,Completed
+D443,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,4,Package,Consumer goods,67,22,7.3,OP015,12/22/2025,19,3,6.5,Yes,Landed Unexpectedly
+D444,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Zoom lens,84,19,5.2,OP007,12/23/2025,34,2,9.3,Yes,Landed Unexpectedly
+D445,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,20.1,Liquid Tank,Fungicide,30,32,10.8,OP003,12/24/2025,39,3.3,7.5,Yes,Landed Unexpectedly
+D446,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,6.1,Camera,High-res,103,39,13.8,OP002,12/25/2025,23,4,7.9,Yes,Landed Unexpectedly
+D447,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Small package,73,16,6.5,OP011,12/26/2025,35,4,8.9,No,Landed Unexpectedly
+D448,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Wide angle,89,20,5.8,OP004,12/27/2025,22,3,9.2,No,Landed Unexpectedly
+D449,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.2,Liquid Tank,Insecticide,34,34,10.1,OP003,12/28/2025,12,3.1,9.1,Yes,Landed Unexpectedly
+D450,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5,Sensor,Vibration,107,40,12.5,OP002,12/29/2025,43,4.2,9,Yes,Landed Unexpectedly
+D451,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Fragile goods,71,25,7.2,OP015,12/30/2025,33,3.9,9.6,Yes,Landed Unexpectedly
+D452,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Telephoto,81,17,5.3,OP007,12/31/2025,29,1.3,8,Yes,Landed Unexpectedly
+D453,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.8,Liquid Tank,Herbicide,26,32,9.2,OP003,1/1/2026,26,3.4,9.1,Yes,Landed Unexpectedly
+D454,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.3,Camera,Zoom,104,42,13.9,OP002,1/2/2026,20,2.5,9.7,No,Landed Unexpectedly
+D455,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.7,Package,Gift,70,19,6.1,OP011,1/3/2026,21,1.5,9.5,Yes,Landed Unexpectedly
+D456,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Standard lens,87,20,5.7,OP004,1/4/2026,22,1.1,9.5,Yes,Landed Unexpectedly
+D457,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.6,Liquid Tank,Fungicide,33,33,10.5,OP003,1/5/2026,46,3.3,7.3,No,Completed
+D458,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,109,38,12.2,OP002,1/6/2026,69,2.1,5.4,No,Completed
+D459,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Electronics,66,23,7.5,OP015,1/7/2026,89,1.7,3.1,No,Completed
+D460,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide lens,82,18,5.9,OP007,1/8/2026,97,1.2,2.5,No,Completed
+D461,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.2,Liquid Tank,Insecticide,28,35,9.8,OP003,1/9/2026,43,3.5,7.6,No,Completed
+D462,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,Thermal,103,41,13.1,OP002,1/10/2026,64,2.4,5.2,No,Completed
+D463,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Clothing,73,19,6.1,OP011,1/11/2026,92,1.4,2.7,No,Completed
+D464,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom,85,20,5.5,OP004,1/12/2026,96,1.3,2.3,No,Completed
+D465,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.1,Liquid Tank,Herbicide,31,33,9.5,OP003,1/13/2026,40,3.3,7.9,No,Completed
+D466,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Gas,106,39,12.8,OP002,1/14/2026,67,2.2,5.5,No,Completed
+D467,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.9,Package,Consumer goods,67,22,7.3,OP015,1/15/2026,87,1.7,3.2,No,Completed
+D468,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Zoom lens,84,19,5.2,OP007,1/16/2026,95,1.2,2.3,No,Completed
+D469,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.5,Liquid Tank,Fungicide,30,32,10.8,OP003,1/17/2026,42,3.3,7.5,No,Completed
+D470,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,High-res,103,39,13.8,OP002,1/18/2026,65,2.4,5.6,No,Completed
+D471,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Small package,73,16,6.5,OP011,1/19/2026,90,1.4,2.9,No,Completed
+D472,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.8,Camera,Wide angle,89,20,5.8,OP004,1/20/2026,93,1.1,2.1,No,Completed
+D473,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.1,Liquid Tank,Insecticide,34,34,10.1,OP003,1/21/2026,47,3.1,7.2,No,Completed
+D474,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.6,Sensor,Vibration,107,40,12.5,OP002,1/22/2026,68,2.2,5.3,No,Completed
+D475,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.6,Package,Fragile goods,71,25,7.2,OP015,1/23/2026,86,1.8,3.5,No,Completed
+D476,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.3,Camera,Telephoto,81,17,5.3,OP007,1/24/2026,98,1.3,2.4,No,Completed
+D477,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Herbicide,26,32,9.2,OP003,1/25/2026,41,3.4,7.7,No,Completed
+D478,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.3,Camera,Zoom,104,42,13.9,OP002,1/26/2026,62,2.5,5.7,No,Completed
+D479,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.4,Package,Gift,70,19,6.1,OP011,1/27/2026,94,1.5,2.8,No,Completed
+D480,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Standard lens,87,20,5.7,OP004,1/28/2026,95,1.1,2.2,No,Completed
+D481,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.6,Liquid Tank,Fungicide,33,33,10.5,OP003,1/29/2026,46,3.3,7.3,No,Completed
+D482,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,109,38,12.2,OP002,1/30/2026,69,2.1,2.3,No,Completed
+D483,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.1,Package,Electronics,66,23,7.5,OP015,1/31/2026,89,1.7,2.3,No,Completed
+D484,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide lens,82,18,5.9,OP007,2/1/2026,97,1.2,2.5,No,Completed
+D485,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.2,Liquid Tank,Insecticide,28,35,9.8,OP003,2/2/2026,98,2,7.6,No,Completed
+D486,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.5,Camera,Thermal,103,41,13.1,OP002,2/3/2026,64,2.4,5.2,No,Completed
+D487,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Clothing,73,19,6.1,OP011,2/4/2026,92,1.4,2.7,No,Completed
+D488,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Zoom,85,20,5.5,OP004,2/5/2026,96,1.3,2.3,No,Completed
+D489,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.1,Liquid Tank,Herbicide,31,33,9.5,OP003,2/6/2026,88,3.3,7.9,No,Completed
+D490,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.7,Sensor,Gas,106,39,12.8,OP002,2/7/2026,88,2.2,3.1,No,Completed
+D491,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.2,Package,Documents,69,24,7.9,OP015,2/8/2026,87,1.8,3.4,No,Completed
+D492,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,ND filter,88,17,5.2,OP007,2/9/2026,99,1.1,2.1,No,Completed
+D493,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Fungicide,34,34,10.2,OP003,2/10/2026,45,3.4,2.1,No,Completed
+D494,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.1,Camera,Visual,104,40,13.5,OP002,2/11/2026,63,2.3,5.1,No,Completed
+D495,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Electronics,71,18,6.3,OP011,2/12/2026,90,1.5,2.8,No,Completed
+D496,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Wide angle,83,19,5.6,OP004,2/13/2026,93,1.2,2.4,No,Completed
+D497,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.5,Liquid Tank,Insecticide,29,32,9.9,OP003,2/14/2026,44,3.2,3.2,No,Completed
+D498,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.6,Sensor,Temperature,107,42,12.8,OP002,2/15/2026,66,2.4,2.3,No,Completed
+D499,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.7,Package,Small items,72,25,7.1,OP015,2/16/2026,24,4,8,Yes,Landed Unexpectedly
+D500,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.2,Camera,Telephoto,89,21,6.5,OP007,2/17/2026,22,4.3,9.1,Yes,Landed Unexpectedly
+D501,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Herbicide,32,31,10.5,OP003,2/18/2026,21,4,9.2,Yes,Landed Unexpectedly
+D502,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.7,Camera,Infrared,104,38,13.2,OP002,2/19/2026,69,3.7,5.1,Yes,Landed Unexpectedly
+D503,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.2,Package,Documents,70,17,5.8,OP011,2/20/2026,26,4,8.9,Yes,Landed Unexpectedly
+D504,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Standard,83,20,5.9,OP004,2/21/2026,22,4,9.3,Yes,Landed Unexpectedly
+D505,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19,Liquid Tank,Fungicide,27,35,9.8,OP003,2/22/2026,21,2.3,9,Yes,Landed Unexpectedly
+D506,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.8,Sensor,Pressure,108,41,12.5,OP002,2/23/2026,22,4.3,8.8,Yes,Landed Unexpectedly
+D507,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,4,Package,Consumer goods,68,22,7.1,OP015,2/24/2026,21,4,8.7,Yes,Landed Unexpectedly
+D508,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Zoom lens,81,19,5.2,OP007,2/25/2026,22,4,8.8,Yes,Landed Unexpectedly
+D509,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.6,Liquid Tank,Insecticide,30,32,10.8,OP003,2/26/2026,11,4,8.8,Yes,Landed Unexpectedly
+D510,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,7.7,Camera,High-res,105,39,13.8,OP002,2/27/2026,23,4.4,9.8,Yes,Landed Unexpectedly
+D511,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.6,Package,Small package,72,16,6.2,OP011,2/28/2026,21,4,8.7,Yes,Landed Unexpectedly
+D512,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.9,Camera,Wide angle,86,20,5.5,OP004,3/1/2026,21,5,7.7,Yes,Landed Unexpectedly
+D513,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.5,Liquid Tank,Herbicide,33,34,10.1,OP003,3/2/2026,12,4,7.5,Yes,Landed Unexpectedly
+D514,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,7,Sensor,Vibration,109,40,12.5,OP002,3/3/2026,11,5,9.1,Yes,Landed Unexpectedly
+D515,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,4,Package,Fragile goods,70,25,7.9,OP015,3/4/2026,16,4,9,Yes,Landed Unexpectedly
+D516,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Telephoto,8444,17,5.3,OP007,3/5/2026,18,4,8,Yes,Landed Unexpectedly
+D517,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,20.1,Liquid Tank,Fungicide,29,32,9.2,OP003,3/6/2026,21,4.5,7.8,Yes,Landed Unexpectedly
+D518,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,7.7,Camera,Zoom,106,42,13.9,OP002,3/7/2026,17,5,9,Yes,Landed Unexpectedly
+D619,Package Delivery,52,SwiftWing,DeliveryNow,4,2,1.5,Package,Gift,71,19,6.5,OP011,3/8/2026,92,1.5,2.9,No,Completed
+D519,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Gift,71,19,6.5,OP011,3/8/2026,92,1.5,2.9,No,Completed
+D520,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.6,Camera,Standard lens,85,20,5.7,OP004,3/9/2026,94,1.1,2.1,No,Completed
+D521,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,17.8,Liquid Tank,Insecticide,32,33,10.5,OP003,3/10/2026,45,3.3,7.3,No,Completed
+D522,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Sensor,Acoustic,108,38,12.2,OP002,3/11/2026,69,2.1,5.4,No,Completed
+D742,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.4,Camera,Standard lens,87,19,5.3,OP004,9/21/2026,95,1.2,2.2,No,Completed
+D743,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.1,Liquid Tank,Herbicide,33,33,10.7,OP003,9/22/2026,42,3.4,7.6,No,Completed
+D744,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.2,Sensor,Gas leak sensor,109,41,13.1,OP002,9/23/2026,66,2.3,5.1,No,Completed
+D745,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.3,Package,Electronics,71,17,5.9,OP011,9/24/2026,92,1.5,2.7,No,Completed
+D746,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.7,Camera,Zoom lens,84,20,5.8,OP004,9/25/2026,94,1.1,2.3,No,Completed
+D747,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,18.8,Liquid Tank,Fungicide,29,32,9.5,OP003,9/26/2026,44,3.2,7.7,No,Completed
+D748,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,4.9,Camera,High-resolution camera,107,42,12.8,OP002,9/27/2026,68,2.4,5.2,No,Completed
+,,,,,,,,,,,,,,,,,,,
+D819,Package Delivery,Small,SwiftWing,DeliveryNow,4,2,1.5,Package,Gift,71,19,6.5,OP011,3/8/2026,92,1.5,2.4,No,Completed
+D749,Package Delivery,Medium,FlyHigh 300,AeroCorp,4,5,2.8,Package,Small items,69,25,7.5,OP015,9/28/2026,32,1.9,8,Yes,Landed Unexpectedly
+D750,Aerial Photography,Small,SnapShot Mini,PhotoFly,4,1,0.5,Camera,Wide-angle lens,83,21,6.2,OP004,9/29/2026,96,1.3,2.4,No,Completed
+D751,Agricultural Spraying,Large,CropMaster,AgriDrones,8,20,19.9,Liquid Tank,Insecticide,33,31,10.2,OP003,9/30/2026,33,4,8.9,Yes,Landed Unexpectedly
+D752,Infrastructure Inspection,Medium,ViewMax 500,SkyView Inc.,4,8,5.2,Sensor,Temperature sensor,106,38,13.1,OP002,10/1/2026,88,2.2,5.4,Yes,Landed Unexpectedly
