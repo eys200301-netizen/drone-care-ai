@@ -3,5 +3,5 @@ pandas
 numpy
 plotly
 scikit-learn
-tensorflow
-plotly
+joblib
+tensorflow-cpu
